@@ -8,10 +8,12 @@ Análisis de correlaciones y cointegración entre las 35 empresas del IBEX 35, c
 Periodo analizado: enero 2015 – diciembre 2025.
 
 ## Estructura del repositorio
-El repositorio se organiza en dos partes principales: el script de R con todo el análisis (`TFG_codigo.R`) y la carpeta `data/` con los archivos históricos de cotización de las 35 empresas del IBEX 35, descargados de Investing.com en formato CSV.
+El repositorio se organiza en dos partes principales: el script de R con todo el análisis (TFG_codigo.R) y los archivos históricos de
+cotización de las 35 empresas del IBEX 35 en formato CSV, descargados de Investing.com. Todos los archivos se encuentran en la raíz del
+repositorio.
 
 ## Requisitos
-R con los paquetes: tidyverse, corrplot, tseries, zoo, ggplot2
+R con los paquetes: tidyverse, corrplot, tseries, zoo, ggplot2, lubridate, quantmod.
 
 ## Fuente de datos
-Investing.com — datos diarios de cotización del IBEX 35
+Investing.com — datos diarios de cotización del IBEX 35 (2015 - 2025)
